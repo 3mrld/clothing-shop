@@ -1,0 +1,96 @@
+.crd-header{
+    padding: 0 !important;
+}
+.crd{
+    border:none !important;
+}
+.img-crd1{
+    background:url(../images/ac1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    transition: 0.7s;
+}
+.img-crd1:hover{
+    background-image: url(../images/ac2.jpg);
+}
+.img-crd2{
+    background:url(../images/ac3.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    transition: 0.7s;
+}
+.img-crd2:hover{
+    background-image: url(../images/ac4.jpg);
+}
+.img-crd3{
+    background:url(../images/ac5.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    transition: 0.7s;
+}
+.img-crd3:hover{
+    background-image: url(../images/ac6.jpg);
+}
+.img-crd4{
+    background:url(../images/ac7.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    transition: 0.7s;
+}
+.img-crd4:hover{
+    background-image: url(../images/ac8.jpg);
+}
+.img-crd5{
+    background:url(../images/ac9.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    transition: 0.7s;
+}
+.img-crd5:hover{
+    background-image: url(../images/ac10.jpg);
+}
+.img-crd6{
+    background:url(../images/ac11.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    transition: 0.7s;
+}
+.img-crd6:hover{
+    background-image: url(../images/ac12.jpg);
+}
+.img-crd7{
+    background:url(../images/ac13.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    transition: 0.7s;
+}
+.img-crd7:hover{
+    background-image: url(../images/ac14.jpg);
+}
+.img-crd8{
+    background:url(../images/ac15.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    transition: 0.7s;
+}
+.img-crd8:hover{
+    background-image: url(../images/ac16.jpg);
+}
+.img-crd9{
+    background:url(../images/ac17.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    transition: 0.7s;
+}
+.img-crd9:hover{
+    background-image: url(../images/ac18.jpg);
+}

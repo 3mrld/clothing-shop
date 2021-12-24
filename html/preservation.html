@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3mrld Store - Preservation</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="imgage/png" href="../images/logo.jpeg">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="../css/preservation.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--sidebar-->
+    <nav class="sidebar show" style="position: fixed;top: 0;">
+        <div class="text">Menu</div>
+        <ul style="padding: 0;">
+            <li><a href="landingpage1.html">Homepage</a></li>
+            <li>
+                <a class="feat-button">Store
+                    <span class="fas fa-caret-down first"></span>
+                </a>
+                <ul class="feat-show">
+                    <li><a href="top.html">Tops</a></li>
+                    <li><a href="bottom.html">Bottoms</a></li>
+                    <li><a href="ac.html">Accesories</a></li>
+                </ul>
+            </li>
+            <li class="active">
+                <a class="serv-button">Terms
+                    <span class="fas fa-caret-down second"></span>
+                </a>
+                <ul class="serv-show show1">
+                    <li style="border-left: 3px solid white;"><a href="preservation.html">Preservation</a></li>
+                    <li><a href="return.html">Return</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="cntct-button">Contact
+                    <span class="fas fa-caret-down third"></span>
+                </a>
+                <ul class="cntct-show">
+                    <li><a href="https://www.facebook.com/3mrld" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/ng0cb40" target="_blank">Instagram</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <div class="content1">
+        Trang này chúng tôi sẽ chỉ bạn những cách để bảo quản những sản phẩm bạn mua từ 3mrld Store và các mẹo nhỏ để bảo quản những món đồ của bạn .
+        </div>
+        <div class="content2">
+        / ÁO THUN /
+        </div>
+        <div class="content3">
+        _ Cách an toàn nhất để giặt chiếc áo thun yêu thích của bạn là giặt tay bằng nước ấm với các loại bột giặt chuyên biệt cho việc giặt tay. Nếu giặt với máy giặt hãy chọn chế độ giặt chuyên biệt cho áo thun;<br>
+        _ Phơi áo nơi râm mát và tránh ánh nắng trực tiếp. Cố gắng hết sức để tránh chất tẩy rửa hoặc thuốc tẩy có gốc clo, vì điều này sẽ làm biến tính sợi cotton.<br>
+        </div>
+        <div class="content2">
+        / JEAN & DENIM /
+        </div>
+        <div class="content3">
+        _ Luôn giặt Jean từ trong ra ngoài bằng nước lạnh theo chỉ dẫn trên mạc thành phần hoặc bằng tay. Khi phơi Jean & Denim dưới ánh nắng mặt trời thì phải phơi mặt trong chứ không được phơi mặt ngoài (Còn nếu bạn thực sự muốn denim bị phai màu nhanh hơn, hãy giặt một lần trong nước nóng.)<br>
+        _ Nếu bạn có một chiếc quần/áo Jean hay Denim tối màu. Hãy thêm 1/2 chén giấm trắng chưng cất vào quy trình giặt cuối cùng trong khi giặt giũ để giúp duy trì màu sắc cho chiếc quần/áo này của ban. <br>
+        </div>
+        <div class="content2">
+        / KHAKI & CHINOS /
+        </div>
+        <div class="content3">
+        _ Giặt giũ: Chúng tôi khuyên bạn nên lộn trái quần trước khi giặt; Giặt bằng tay hoặc máy ( bạn nhớ chỉnh chế độ giặt riêng biệt cho quần nhé ) và không nên sử dụng chất tẩy quá mạnh. Sau đó treo để khô. Không khí sẽ làm khô quần áo và giúp giảm mài mòn bề mặt.
+        </div>
+        <div class="content2">
+        / ÁO KHOÁC /
+        </div>
+        <div class="content3">
+        _ Không gì đảm bảo rằng áo khoác của bạn sẽ sạch hơn nếu bạn giặt nó trong nước ấm, 30° C thường là đủ. Nhiệt độ thấp hơn sẽ kéo dài vòng đời của áo khoác khi có sợi màu nhuộm. <br>
+        _ Các mẹo khác để bảo vệ áo khoác của bạn là kéo dây kéo áo khoác, túi, đóng nút áo trước khi giặt vì những thứ này có thể làm hỏng bề mặt vải. Để bảo vệ màu sắc, áo khoác cũng nên được lộn trái trước khi giặt và không nên để trong máy giặt quá lâu sau khi giặt.
+        </div>
+        <div class="content2">
+        " Lời khuyên từ chuyên gia"
+        </div>
+        <div class="content3">
+        Nếu bạn không biết phải làm gì, hãy đưa cho mẹ của bạn, bà ấy biết phải làm gì.
+        </div>
+    </div>
+    
+
+
+
+    <!--JQuery Sidebar-->
+    <script>
+        $('.feat-button').click(function () {
+            $('nav ul .feat-show').toggleClass("show");
+            $('nav ul .first').toggleClass("rotate");
+        });
+        $('.serv-button').click(function () {
+            $('nav ul .serv-show').toggleClass("show1");
+            $('nav ul .second').toggleClass("rotate");
+        });
+        $('.cntct-button').click(function () {
+            $('nav ul .cntct-show').toggleClass("show2");
+            $('nav ul .third').toggleClass("rotate");
+        });
+        $('nav ul li').click(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    </script>
+
+
+</body>
+
+</html>
